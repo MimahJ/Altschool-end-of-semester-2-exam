@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import LandingPage from './components/LandingPage';
 import 'tachyons';
 import './App.css';

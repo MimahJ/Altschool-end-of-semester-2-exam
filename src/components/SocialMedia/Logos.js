@@ -73,18 +73,18 @@ const Fork = ({ urlToUse }) => {
 }
 
 /* A circle as the logo background. */
-const Circle = () => {
-	return (
-		<circle style={{fill: "#eee"}} cx="100" cy="100" r="80"></circle>
-	)
-}
+// const Circle = () => {
+// 	return (
+// 		<circle style={{fill: "#eee"}} cx="100" cy="100" r="80"></circle>
+// 	)
+// }
 
 /* A square as the logo background. */
-const Square = () => {
-	return (
-		<rect style={{fill: "#eee"}} x="0" y="0" rx="25" ry="25" width="200" height="200"></rect>
-	)
-}
+// const Square = () => {
+// 	return (
+// 		<rect style={{fill: "#eee"}} x="0" y="0" rx="25" ry="25" width="200" height="200"></rect>
+// 	)
+// }
 
 /* Logo component with the SVG image. */
 const Logo = ({ logoObj, onlyLogo=false }) => {

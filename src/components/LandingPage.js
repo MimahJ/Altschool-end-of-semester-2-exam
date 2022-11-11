@@ -16,17 +16,17 @@ const Container = styled.div.attrs({
 	className: `vh-100-l h-auto overflow-hidden-l`
 })``
 
-const TopBar = styled.div.attrs({
-	className: `w-100 ph3 pv2`
-})``
+// const TopBar = styled.div.attrs({
+// 	className: `w-100 ph3 pv2`
+// })``
 
-const TopBarWrapper = styled.div.attrs({
-	className: `flex flex-wrap justify-between items-center`
-})``
+// const TopBarWrapper = styled.div.attrs({
+// 	className: `flex flex-wrap justify-between items-center`
+// })``
 
-const User = styled.div.attrs({
-	className: `flex flex-wrap justify-center items-center`
-})``
+// const User = styled.div.attrs({
+// 	className: `flex flex-wrap justify-center items-center`
+// })``
 
 const UserInfo = styled.div.attrs({
 	className: `pa2`
