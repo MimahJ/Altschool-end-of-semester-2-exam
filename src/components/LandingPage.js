@@ -145,7 +145,7 @@ class LandingPage extends Component {
  The example below converts the json back to a string and outputs to the console.
  */
  .then(function(myJson) {
- 	console.log(JSON.stringify(myJson));
+ 	console.log(JSON.stringify);
  });
 
 		/* End of Task 3 */
