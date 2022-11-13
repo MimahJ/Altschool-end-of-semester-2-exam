@@ -39,7 +39,7 @@ class WantedRepos extends Component {
 	filterRepositories = (repos) => {
 		const { number_of_repos_to_show } = content;
 		return repos.map((repo, ind) => (
-			(ind < number_of_repos_to_show || ind === -1) && <Link to={`/repository/${repo.id}`}><RepoCard key={ind} repo={repo} {...this.props} /></Link>
+			(ind < number_of_repos_to_show || ind === -1) && <a href={repo.html_url} ><RepoCard key={ind} repo={repo} {...this.props} /></a>
 		))
 	}
 

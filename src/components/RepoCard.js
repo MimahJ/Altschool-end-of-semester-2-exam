@@ -110,8 +110,8 @@ export default class RepoCard extends Component {
 		fetch(repo.languages_url)
 		.then(resp => resp.json())
 		.then(languages => {
-			this.props.updateLanguages(languages);
-			this.props.updateTop3Languages();
+			//this.props.updateLanguages(languages);
+			//this.props.updateTop3Languages();
 			this.setState({ languages: languages });
 		})
 	}
@@ -148,7 +148,8 @@ export default class RepoCard extends Component {
 								</Forks>
 							</FlexRow>
 						</FlexBetween>
-						<LanguagesContainer languages={languages} langColors={langColors} />
+						{//<LanguagesContainer languages={languages} langColors={langColors} />
+					}
 					</Bottom>
 				</CardWrapper>
 			</Card>
